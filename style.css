@@ -1,0 +1,39 @@
+/*圖片自動縮放*/
+.img-fluid{
+    width:100%;
+    height:auto;
+}
+.box{
+    display: block;
+    margin:10px;
+    width:300px;
+    /*邊框*/
+    border:2px solid #000;
+}
+.box .box-head{
+    display: block;
+}
+.box .box-body{
+    display: block;
+    /*內距*/
+    padding:30px 20px;
+}
+.box.title{
+    margin:0;
+    color:#ff0000;
+    font-size:36px;
+    font-weight: 900;
+}
+.box.date,.box .text{
+    color:#f86c16;
+}
+.box.date{
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:14px;
+    /*文字樣式:斜體*/
+    font-style: italic;
+}
+.box.text{
+    margin-bottom:2px;
+}
